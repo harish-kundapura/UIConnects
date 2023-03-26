@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2e0249 !important;
+}
+
+.textHeader {
+  color: #eeeeee;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  font-family: "Poppins";
+  text-align: left;
+}
+.studentForm {
+  width: 100%;
+  min-height: 30rem;
+  background: #eeeeee;
+  border-radius: 24px;
+  position: absolute;
+  z-index: 2;
+}
+.innerText {
+  font-size: 20px;
+  color: #eeeeee;
+  /* text-align: start; */
+}
+.iconImageMain {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+
+.iconImage {
+  width: 8%;
+  height: 3rem;
+}
+.interestText {
+  color: #2e0249;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: "Poppins";
+  text-align: justify;
+  margin-left: 4%;
+}
+.coolText {
+  color: #a91079;
+}
+.companyDetails {
+  margin-top: 10%;
+}
+.inputBox {
+  border: none;
+  border-bottom: 0.6px solid #bababa;
+  border-radius: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: black;
+  padding-left: 0px !important;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  background-color: transparent !important;
+  outline: none;
+  width: 93%;
+}
+.inputBox:focus {
+  border-bottom: 3px solid #a91079;
+}
+
+.categoryButton {
+  color: rgba(46, 2, 73, 0.3);
+  background-color: #eeeeee;
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: "poppins";
+  border: 2px solid rgba(46, 2, 73, 0.3);
+  width: 80%;
+  padding: 8px 0px 8px 0px;
+}
+.activeRadioButton {
+  background-color: #a91079;
+  color: #eeeeee;
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: "poppins";
+  border: 2px solid rgba(46, 2, 73, 0.3);
+  width: 80%;
+  padding: 8px 0px 8px 0px;
+}
+.button {
+  background-color: #a91079;
+  color: #fff;
+  border-radius: 16px;
+  padding: 12px 50px 12px 54px;
+  font-size: 20px;
+
+  outline: none;
+  border: none;
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  margin-left: 4%;
+}
+
+.sendIcon {
+  font-size: 20px;
+}
+.buttonInside {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.errorMessage {
+  color: #ff0000;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 23px;
+}
+.emailText {
+  border: 3px solid transparent;
+}
+.emailText:hover {
+  background: rgba(87, 10, 87, 0.5);
+  border: 3px solid #a91079;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.socialIcons {
+  margin-top: 4rem;
+  padding: 10px;
+}
+.socialIcons:hover {
+  background-color: #a91079;
+  color: #fff;
+  border: 2px solid red;
+  border-radius: 25px;
+
+  cursor: pointer;
+  border: none;
+}
+input[type="number"]{
+appearance: none !important;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
+@media screen and (max-width: 990px) {
+  .button {
+    width: 60%;
+    font-size: 14px;
+  }
+  .categoryButton {
+    font-size: 14px;
+  }
+  .activeRadioButton {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .socialIcons {
+    margin-top: 2rem;
+  }
+  .emailText {
+    display: flex;
+    padding-left: 60px;
+    align-items: center;
+  }
+  .textHeader {
+    text-align: center;
+  }
+  .iconMain {
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 60px;
+  }
+  .socialIcons {
+    margin-bottom: 2rem;
+  }
+  .studentForm {
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .categoryButton {
+    font-size: 12px;
+  }
+  .activeRadioButton {
+    font-size: 12px;
+  }
+  .button {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .categoryButton {
+    font-size: 10px;
+  }
+  .activeRadioButton {
+    font-size: 10px;
+  }
+  .button {
+    width: 70%;
+    font-size: 10px;
+  }
+}
